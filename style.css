@@ -201,14 +201,17 @@ footer {
   align-items: center;
   justify-content: end;
 }
+
 footer ul {
   display: flex;
   flex-direction: row;
 }
-footer a{
-padding: 2rem;
-color: var(--font-color);
+
+footer a {
+  padding: 2rem;
+  color: var(--font-color);
 }
+
 footer span {
   margin-top: 1rem;
   display: flex;
@@ -216,5 +219,54 @@ footer span {
   font-size: 0.9em;
   color: #444;
 }
+
 /* footer style end */
+
 /* main style section end */
+
+/* media queery style */
+@media (max-width: 768px) {
+  nav>ul {
+    display: none;
+  }
+
+  .form-top h1 {
+    font-size: 1rem;
+  }
+
+  .logo>img {
+    width: 100%;
+  }
+
+  .form-top {
+    width: 100%;
+  }
+
+  .container {
+    margin: 0;
+  }
+
+  #How-It-Works {
+    width: 100%;
+  }
+
+  .feature-item {
+    display: none;
+  }
+
+  .cart-head {
+    font-size: .8rem;
+  }
+
+  .card-button {
+    font-size: 1rem;
+  }
+
+  #features {
+    margin-top: 1rem;
+  }
+
+  .icon-features {
+    display: none;
+  }
+}
